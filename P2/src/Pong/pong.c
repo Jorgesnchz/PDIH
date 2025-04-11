@@ -83,8 +83,7 @@ int main() {
         if (ch == 'q') break;
 
         if (ch == 'w' && left_paddle_y > 1)
-            left_paddle_y--;
-        if (ch == 's' && left_paddle_y + PADDLE_HEIGHT < HEIGHT - 1)
+            left_paddle_y--;if (ch == 's' && left_paddle_y + PADDLE_HEIGHT < HEIGHT - 1)
             left_paddle_y++;
         if (ch == KEY_UP && right_paddle_y > 1)
             right_paddle_y--;
