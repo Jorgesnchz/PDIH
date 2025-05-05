@@ -3,8 +3,8 @@
 # Requiere la librería qrcode, que se puede instalar con pip:
 # pip install qrcode[pil]
 # 
-# Uso: python3 generar_qr.py <URL>
-# Ejemplo: python3 generar_qr.py https://www.ejemplo.com
+# Uso: python3 main.py <URL>
+# Ejemplo: python3 main.py https://www.ejemplo.com
 # 
 # El código QR se guardará en un archivo llamado 'codigo_qr.png' en el directorio actual.
 # Al ser escaneado, con un teléfono móvil o un lector de QR, abrirá la URL proporcionada.
