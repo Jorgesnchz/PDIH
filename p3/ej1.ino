@@ -12,22 +12,22 @@ pinMode(ledVerde,OUTPUT);
 }
 
 void loop() {
-//Encender el LED rojo, apagar los otros
-digitalWrite(ledRojo, HIGH);
-digitalWrite(ledAmarillo, LOW);
-digitalWrite(ledVerde, LOW);
-delay(1500); 
+    //Encender el LED rojo, apagar los otros
+    digitalWrite(ledRojo, HIGH);
+    digitalWrite(ledAmarillo, LOW);
+    digitalWrite(ledVerde, LOW);
+    delay(1500); 
 
-//Encender el LED amarillo, apagar los otros
-digitalWrite(ledRojo, LOW);
-digitalWrite(ledAmarillo, HIGH);
-digitalWrite(ledVerde, LOW);
-delay(1500); 
+    //Encender el LED amarillo, apagar los otros
+    digitalWrite(ledRojo, LOW);
+    digitalWrite(ledAmarillo, HIGH);
+    digitalWrite(ledVerde, LOW);
+    delay(1500); 
 
-//Encender el LED verde, apagar los otros
-digitalWrite(ledRojo, LOW);
-digitalWrite(ledAmarillo, LOW);
-digitalWrite(ledVerde, HIGH);
-delay(1500); 
+    //Encender el LED verde, apagar los otros
+    digitalWrite(ledRojo, LOW);
+    digitalWrite(ledAmarillo, LOW);
+    digitalWrite(ledVerde, HIGH);
+    delay(1500); 
 
 }

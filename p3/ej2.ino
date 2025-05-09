@@ -7,9 +7,9 @@ const int pulsador=7;
 void setup()
 {
 	pinMode(ledVerde, OUTPUT);
-  	pinMode(ledAmarillo, OUTPUT);
-  	pinMode(ledRojo, OUTPUT);
-    pinMode(pulsador, OUTPUT);
+  pinMode(ledAmarillo, OUTPUT);
+  pinMode(ledRojo, OUTPUT);
+  pinMode(pulsador, OUTPUT);
 
 }
 
@@ -33,7 +33,7 @@ void loop()
   // Si el pulsador esta presionado se enciende el rojo
   else {
 	digitalWrite(ledVerde, LOW);
-    digitalWrite(ledAmarillo, LOW);
+  digitalWrite(ledAmarillo, LOW);
 	digitalWrite(ledRojo, HIGH);
   
 	
