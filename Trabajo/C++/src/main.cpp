@@ -3,6 +3,7 @@
 // Requiere la biblioteca QRencode y LodePNG para la generación y guardado de imágenes PNG respectivamente.
 //
 // Uso:
+// sudo apt install qrencode
 // g++ -o qr_generator main.cpp lodepng.cpp -lqrencode
 // ./qr_generator "https://example.com"
 //
