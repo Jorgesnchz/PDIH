@@ -1,0 +1,62 @@
+%!PS
+%%BoundingBox: 0 0 612 792
+
+/Helvetica findfont 24 scalefont setfont
+/Times-Roman findfont 12 scalefont setfont
+
+% Primera pag
+ /Page1 {
+   % Tam pag
+    << /PageSize [300 200] >> setpagedevice
+    /newlines 20 def
+
+    % Cabecera
+    /Helvetica findfont 12 scalefont setfont
+    100 180 moveto (DATO 1) show
+    200 180 moveto (DATO 2) show
+
+    % Datos
+    % Primera fila
+    /Helvetica findfont 10 scalefont setfont
+    100 160 moveto (150) show
+    200 160 moveto (1) show
+
+    % Segunda fila
+    100 140 moveto (100) show
+    200 140 moveto (2) show
+
+    % Tercera fila
+    100 120 moveto (180) show
+    200 120 moveto (3) show
+
+    % Cuarta fila
+    100 100 moveto (120) show
+    200 100 moveto (4) show
+} def
+Page1
+
+showpage
+
+% Segunda pag
+/Page2 {
+% Dibujar la línea que conecta los puntos
+newpath
+100 150 moveto
+150 100 lineto
+200 180 lineto
+250 120 lineto
+stroke
+
+% Etiqueta abajo
+/Helvetica findfont 12 scalefont setfont
+150 80 moveto
+(Dato 2) show
+
+% Etiqueta izquierda
+/Helvetica findfont 12 scalefont setfont
+50 125 moveto
+(DATO 1) show
+} def
+Page2
+
+showpage

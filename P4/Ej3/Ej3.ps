@@ -1,0 +1,58 @@
+%!PS
+% Tam
+/width 600 def
+/height 300 def
+
+% Fondo
+newpath
+2 setlinewidth
+0 0 moveto
+width 0 lineto
+width height lineto
+0 height lineto
+closepath
+stroke
+
+% Corazon
+gsave
+1 0 0 setrgbcolor
+200 200 52 0 360 arc
+fill
+grestore
+
+gsave
+1 0 0 setrgbcolor
+100 200 52 0 360 arc
+fill
+grestore
+
+gsave
+newpath
+50 190 moveto
+150 50 lineto
+250 190 lineto
+closepath
+1 0 0 setrgbcolor
+fill
+
+% Texto
+/Helvetica findfont 12 scalefont setfont
+0 0 0 setrgbcolor
+
+newpath
+300 150 moveto
+(El sol brilla en el cielo sin cesar,) show
+
+newpath
+300 135 moveto
+(las flores despiertan para alegrar,) show
+
+newpath
+300 120 moveto
+(el viento trae historias por contar,) show
+
+newpath
+300 105 moveto
+(y el dia empieza a palpitar.) show
+
+showpage
